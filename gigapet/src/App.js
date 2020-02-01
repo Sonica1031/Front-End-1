@@ -10,8 +10,6 @@ import './App.css';
 function App() {
   return (
     <div>
-      <div>
-    </div>
     <Route exact path="/Register" component={Register} />
     <Route exact path="/" component={HomePage} />
     <Route exact path="/Gigapet" component={MainPage} />
