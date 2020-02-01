@@ -1,14 +1,14 @@
 import React from 'react';
-import {Form, Input, FormGroup, Label} from 'reactstrap';
 
 function Register(){
     return(
-<Form>
-    <FormGroup>
-        <Label for="Your E-mail">E-mail</Label>
-        <Input type="email" name="email" placeholder="Enter your e-mail"></Input>
-    </FormGroup>
-</Form>
+        <form>
+            <div className="Form decoration">
+            <input type="text" placeholder="Input name here"/>
+            <input type="e-mail" placeholder="Input e-mail here"/>
+            <input type="password" placeholder="Input password here"/>
+            </div>
+        </form>
     )
 
 }
